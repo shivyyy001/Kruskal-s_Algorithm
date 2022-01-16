@@ -6,19 +6,31 @@ and Union find or Disjoint set Union Algorithm to detect cycle. */
 
 
 /*
-    Test cases :
+    Test cases ->
     
-    Test case 1:                     Test case 2:
-    3 3                              4 4
-    1 2 6                            1 2 6
-    2 0 2       				     2 3 2
-    1 0 2							 1 3 2
-                                     1 0 2
-                                     
-    Output :                         Output :
-    0 1 2							 0 1 2
-    0 2 2                            1 3 2
-                                     2 3 2
+    Test case 1 :                     
+    3 3
+    1 2 6
+    2 0 2
+    1 0 2
+    
+    Output : 
+    0 1 2
+    0 2 2
+    
+    
+    
+    Test case 2 : 
+    4 4
+    1 2 6
+    2 3 2
+    1 3 2
+    1 0 2
+    
+    Output : 
+    0 1 2
+    1 3 2
+    2 3 2
 
 */
 
