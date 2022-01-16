@@ -31,7 +31,24 @@ and Union find or Disjoint set Union Algorithm to detect cycle. */
     0 1 2
     1 3 2
     2 3 2
-
+    
+    
+    
+    Test case 3 :
+    5 6
+    0 1 2
+    0 3 6
+    1 3 8
+    1 2 3
+    1 4 5
+    2 4 7
+    
+    Output : 
+    0 1 2
+    1 2 3
+    1 4 5
+    0 3 6
+    
 */
 
 
