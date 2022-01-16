@@ -1,9 +1,6 @@
 /* Assignment -> Implement Kruskal's Algorithm using self-made Priority Queue 
 and Union find or Disjoint set Union Algorithm to detect cycle. */
 
-// Time Complexity of Kruskal's Algorithm using Union Find -> O(ElogE + EV)
-// Time Complexity of Kruskal's Algorithm using Disjoint set Union by rank and Path compression -> O(ElogE + ElogV)
-
 /* A disjoint-set data structure is a data structure which stores partitions of a set of n elements in the form of disjoint sets. 
 It performs 2 major operations :
 
@@ -13,9 +10,9 @@ It performs 2 major operations :
 Union-find algorithm can be used to check whether an undirected graph contains cycle or not. Union-find algorithm is used in Kruskal's Algorithm to find MINIMUM SPANNING TREE and the time complexity of Kruskal's Algorithm using union-find is
 O(ElogE + EV)
 
-There is an alternate to union-find algorithm which is Union by Rank and Path Compression which makes time complexity of Kruskal's Algorithm to be O(ElogE + ElogV). */
+There is an alternate to union-find algorithm which is Union by Rank and Path Compression which makes time complexity of Kruskal's Algorithm to be O(ElogE + ElogV).
 
-/*
+
     Test cases ->
     
     Test case 1 :                     
